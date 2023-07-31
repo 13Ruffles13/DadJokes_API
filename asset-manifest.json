@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dadjokes/static/css/main.d09b0095.css",
-    "main.js": "/dadjokes/static/js/main.b66db73a.js",
-    "index.html": "/dadjokes/index.html",
-    "main.d09b0095.css.map": "/dadjokes/static/css/main.d09b0095.css.map",
-    "main.b66db73a.js.map": "/dadjokes/static/js/main.b66db73a.js.map"
+    "main.css": "/DadJokes_API/static/css/main.d09b0095.css",
+    "main.js": "/DadJokes_API/static/js/main.fc1d34da.js",
+    "index.html": "/DadJokes_API/index.html",
+    "main.d09b0095.css.map": "/DadJokes_API/static/css/main.d09b0095.css.map",
+    "main.fc1d34da.js.map": "/DadJokes_API/static/js/main.fc1d34da.js.map"
   },
   "entrypoints": [
     "static/css/main.d09b0095.css",
-    "static/js/main.b66db73a.js"
+    "static/js/main.fc1d34da.js"
   ]
 }
