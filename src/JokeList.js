@@ -10,7 +10,7 @@ const JokeList = ({ numJokesToGet = 5 }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   // Retrieve jokes from API
-  const getJokes = useCallback(async () => {
+  const getJokes = useCallback(async () => { // MEMORIZED CALLS
     try {
       // Load jokes one at a time, adding not-yet-seen jokes
       let newJokes = [];
@@ -37,7 +37,7 @@ const JokeList = ({ numJokesToGet = 5 }) => {
     }
   }, [numJokesToGet]);
 
-  useEffect(() => {
+  useEffect(() => { // SIDE EFFECTS
     getJokes();
   }, [getJokes]);
 
